@@ -16,10 +16,9 @@ elfos.forEach(elf => {
     }
 })
 
-
 let totalElf = elfArray.map(elfo => elfo.reduce((a, b) => a + b, 0))
 let sortElf = totalElf.sort((a, b) => b - a);
 console.log(sortElf);
 
 // Parte dos
-console.log(sortElf[0]+sortElf[1]+sortElf[2]);
+console.log(sortElf[0] + sortElf[1] + sortElf[2]);
