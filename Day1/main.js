@@ -6,7 +6,6 @@ let elfArray = [];
 let tempArray = [];
 
 // Parte uno
-
 elfos.forEach(elf => {
     if (elf !== 0) {
         tempArray.push(elf)
